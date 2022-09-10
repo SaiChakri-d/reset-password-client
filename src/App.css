@@ -1,0 +1,58 @@
+.loginPage,
+.RegisterPage,
+.ForgetPasswordPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/src/Pages/login.png);
+  background-position: left center;
+  background-size: cover;
+}
+
+.FormAction {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.signin {
+  display: flex;
+  justify-content: center;
+}
+
+.neil {
+  border-radius: 1rem;
+  width: 25rem;
+  object-fit: cover;
+}
+
+.SECURE {
+  background-image: linear-gradient(
+    to right top,
+    #000000,
+    #291e24,
+    #4a3748,
+    #665473,
+    #7b75a3,
+    #777cad,
+    #7284b6,
+    #6b8cbf,
+    #5978a2,
+    #486485,
+    #39516a,
+    #2c3e50
+  );
+  height: 100vh;
+}
+
+.LoaderDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forgetDiv {
+  display: flex;
+  flex-direction: column;
+}
